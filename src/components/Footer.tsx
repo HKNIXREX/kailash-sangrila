@@ -1,4 +1,5 @@
 import Link from "next/link";
+import HanumanIcon from "@/components/HanumanIcon";
 
 export default function Footer() {
   return (
@@ -10,9 +11,7 @@ export default function Footer() {
           <div className="col-span-1 md:col-span-2">
             <div className="flex items-center space-x-3 mb-6">
               <div className="w-14 h-14 bg-gradient-to-br from-amber-500 to-orange-600 rounded-xl flex items-center justify-center shadow-lg shadow-amber-500/30">
-                <svg className="w-10 h-10 text-black" viewBox="0 0 100 100" fill="currentColor">
-                  <path d="M50 10 L70 40 L90 70 L50 60 L10 70 L30 40 Z" />
-                </svg>
+                <HanumanIcon className="w-10 h-10 text-black" />
               </div>
               <div>
                 <span className="text-2xl font-bold text-white">Kailash</span>
