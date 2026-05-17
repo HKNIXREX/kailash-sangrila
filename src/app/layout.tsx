@@ -20,7 +20,7 @@ export const metadata: Metadata = {
   keywords: "Adikailash Yatra, Omparvat Tour, Kailash Darshan, Himalayan Pilgrimage, Kumaon Darshan, Uttarakhand Tours, Spiritual Journey",
   authors: [{ name: "Kailash Sangrila" }],
   icons: {
-    icon: "/icon.svg",
+    icon: "/images/hanuman.svg",
   },
   openGraph: {
     title: "Kailash Sangrila - Adikailash, Omparvat & Kailash Yatra",
