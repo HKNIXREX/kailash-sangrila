@@ -10,8 +10,8 @@ export default function Footer() {
           {/* Brand */}
           <div className="col-span-1 md:col-span-2">
             <div className="flex items-center space-x-3 mb-6">
-              <div className="w-14 h-14 bg-gradient-to-br from-amber-500 to-orange-600 rounded-xl flex items-center justify-center shadow-lg shadow-amber-500/30">
-                <HanumanIcon className="w-10 h-10 text-black" />
+              <div className="w-14 h-14 bg-amber-50 rounded-xl flex items-center justify-center shadow-lg shadow-amber-500/30 ring-2 ring-amber-500/40 p-1">
+                <HanumanIcon className="w-12 h-12" />
               </div>
               <div>
                 <span className="text-2xl font-bold text-white">Kailash</span>
