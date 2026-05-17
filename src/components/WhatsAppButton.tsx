@@ -1,7 +1,7 @@
 "use client";
 
 export default function WhatsAppButton() {
-  const phoneNumber = "919876543210";
+  const phoneNumber = "918979092584";
   const message = encodeURIComponent("Hello! I'm interested in booking an Adikailash Yatra. Please share more details.");
 
   return (

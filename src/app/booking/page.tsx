@@ -66,7 +66,7 @@ function BookingForm() {
               Back to Home
             </Link>
             <a
-              href="https://wa.me/919876543210"
+              href="https://wa.me/918979092584"
               target="_blank"
               rel="noopener noreferrer"
               className="block w-full bg-green-500 hover:bg-green-600 text-white py-3 rounded-xl font-bold transition-colors"
@@ -170,7 +170,7 @@ function BookingForm() {
                       value={formData.phone}
                       onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
                       className="w-full px-4 py-3 bg-slate-900/50 border border-slate-700 rounded-xl focus:ring-2 focus:ring-amber-500 focus:border-transparent text-white placeholder-gray-500 transition-colors"
-                      placeholder="+91 98765 43210"
+                      placeholder="+91 89790 92584"
                       required
                     />
                   </div>
@@ -307,13 +307,13 @@ function BookingForm() {
                 <div className="mt-6 pt-6 border-t border-slate-700">
                   <p className="text-sm text-gray-400 mb-3">Need help booking?</p>
                   <a
-                    href="tel:+919876543210"
+                    href="tel:+918979092584"
                     className="flex items-center justify-center w-full bg-slate-700 hover:bg-slate-600 text-white py-3 rounded-xl font-medium transition-colors border border-slate-600"
                   >
                     <svg className="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
                     </svg>
-                    Call +91 98765 43210
+                    Call +91 89790 92584
                   </a>
                 </div>
               </div>

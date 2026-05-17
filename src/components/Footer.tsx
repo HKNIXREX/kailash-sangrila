@@ -56,7 +56,7 @@ export default function Footer() {
                 </svg>
               </a>
               <a
-                href="https://wa.me/919876543210"
+                href="https://wa.me/918979092584"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-10 h-10 bg-slate-800 hover:bg-green-500/20 rounded-lg flex items-center justify-center text-gray-400 hover:text-green-400 transition-all duration-300 border border-slate-700 hover:border-green-500/50"
@@ -143,7 +143,7 @@ export default function Footer() {
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
                   </svg>
                 </div>
-                <span className="text-gray-400 hover:text-amber-400 transition-colors">+91 98765 43210</span>
+                <span className="text-gray-400 hover:text-amber-400 transition-colors">+91 89790 92584</span>
               </li>
               <li className="flex items-center space-x-3 group">
                 <div className="w-10 h-10 bg-slate-800 rounded-lg flex items-center justify-center flex-shrink-0 border border-slate-700 group-hover:border-amber-500/50 transition-colors">

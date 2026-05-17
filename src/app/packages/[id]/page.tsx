@@ -161,7 +161,7 @@ export default async function PackageDetailPage({ params }: PageProps) {
                   Book Now
                 </Link>
                 <a
-                  href="https://wa.me/919876543210"
+                  href="https://wa.me/918979092584"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="block w-full bg-green-500 hover:bg-green-600 text-white text-center py-3 rounded-xl font-bold transition-colors"
@@ -278,10 +278,10 @@ export default async function PackageDetailPage({ params }: PageProps) {
               Book Now
             </Link>
             <a
-              href="tel:+919876543210"
+              href="tel:+918979092584"
               className="border-2 border-black text-black hover:bg-black/10 px-8 py-3 rounded-full font-bold transition-colors"
             >
-              Call: +91 98765 43210
+              Call: +91 89790 92584
             </a>
           </div>
         </div>

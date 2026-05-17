@@ -65,8 +65,9 @@ export default function ContactPage() {
                   </div>
                   <div>
                     <h3 className="font-semibold text-white">Phone</h3>
-                    <a href="tel:+919876543210" className="text-amber-400 hover:text-amber-300 transition-colors">+91 98765 43210</a>
+                    <a href="tel:+918979092584" className="text-amber-400 hover:text-amber-300 transition-colors">+91 89790 92584</a>
                     <p className="text-sm text-gray-500 mt-1">Mon-Sat, 9AM - 7PM IST</p>
+                    <p className="text-sm text-gray-500 mt-1">Contact Person: Santosh Goswami</p>
                   </div>
                 </div>
 
@@ -78,7 +79,7 @@ export default function ContactPage() {
                   </div>
                   <div>
                     <h3 className="font-semibold text-white">WhatsApp</h3>
-                    <a href="https://wa.me/919876543210" target="_blank" rel="noopener noreferrer" className="text-green-400 hover:text-green-300 transition-colors">
+                    <a href="https://wa.me/918979092584" target="_blank" rel="noopener noreferrer" className="text-green-400 hover:text-green-300 transition-colors">
                       Chat with us
                     </a>
                     <p className="text-sm text-gray-500 mt-1">Quick responses guaranteed</p>
@@ -198,7 +199,7 @@ export default function ContactPage() {
                         value={formData.phone}
                         onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
                         className="w-full px-4 py-3 bg-slate-900/50 border border-slate-700 rounded-xl focus:ring-2 focus:ring-amber-500 focus:border-transparent text-white placeholder-gray-500 transition-colors"
-                        placeholder="+91 98765 43210"
+                        placeholder="+91 89790 92584"
                       />
                     </div>
                     <div>

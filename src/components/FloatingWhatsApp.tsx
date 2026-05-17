@@ -45,7 +45,7 @@ export default function FloatingWhatsApp() {
             {/* Action button */}
             <div className="p-4 border-t border-slate-700">
               <a
-                href="https://wa.me/919876543210?text=Namaste!%20I%20am%20interested%20in%20Adikailash%20Yatra.%20Please%20share%20details."
+                href="https://wa.me/918979092584?text=Namaste!%20I%20am%20interested%20in%20Adikailash%20Yatra.%20Please%20share%20details."
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center justify-center gap-2 w-full bg-green-500 hover:bg-green-600 text-white py-3 rounded-xl font-semibold transition-colors"
