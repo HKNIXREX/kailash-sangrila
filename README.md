@@ -1,11 +1,11 @@
 # Kailash Sangrila - Premium Pilgrimage Website
 
-A modern, luxurious pilgrimage booking website built with Next.js 15, Tailwind CSS, and Framer Motion. Features a stunning dark theme with gold accents, smooth animations, and a complete booking system for Adikailash, Omparvat, and Kailash Yatra packages.
+A modern, luxurious pilgrimage booking website built with Next.js 16, Tailwind CSS, and Framer Motion. Features a stunning dark theme with gold accents, smooth animations, and a complete booking system for Adikailash, Omparvat, and Kailash Yatra packages.
 
-![Next.js](https://img.shields.io/badge/Next.js-15-black?style=flat-square&logo=next.js)
+![Next.js](https://img.shields.io/badge/Next.js-16-black?style=flat-square&logo=next.js)
 ![TypeScript](https://img.shields.io/badge/TypeScript-5.0-blue?style=flat-square&logo=typescript)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind-4.0-38B2AC?style=flat-square&logo=tailwind-css)
-![Framer Motion](https://img.shields.io/badge/Framer_Motion-11-purple?style=flat-square)
+![Framer Motion](https://img.shields.io/badge/Framer_Motion-12-purple?style=flat-square)
 
 ## Features
 
@@ -27,10 +27,10 @@ A modern, luxurious pilgrimage booking website built with Next.js 15, Tailwind C
 
 ## Tech Stack
 
-- **Framework:** Next.js 15 (App Router)
+- **Framework:** Next.js 16 (App Router)
 - **Language:** TypeScript
 - **Styling:** Tailwind CSS 4
-- **Animations:** Framer Motion 11
+- **Animations:** Framer Motion 12
 - **Icons:** Heroicons (SVG)
 - **Deployment:** Vercel
 
@@ -38,8 +38,8 @@ A modern, luxurious pilgrimage booking website built with Next.js 15, Tailwind C
 
 Before you begin, ensure you have the following installed:
 
-- **Node.js** 18.x or higher - [Download](https://nodejs.org/)
-- **npm** 9.x or higher (comes with Node.js)
+- **Node.js** 20.x or higher - [Download](https://nodejs.org/)
+- **npm** 10.x or higher (comes with Node.js)
 - **Git** - [Download](https://git-scm.com/)
 
 ## Installation
@@ -47,8 +47,8 @@ Before you begin, ensure you have the following installed:
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/girish6j87/divya-darshan-website.git
-cd divya-darshan-website
+git clone https://github.com/HKNIXREX/kailash-sangrila.git
+cd kailash-sangrila
 ```
 
 ### 2. Install Dependencies
@@ -87,7 +87,7 @@ Open [http://localhost:3000](http://localhost:3000) in your browser.
 ## Project Structure
 
 ```
-divya-darshan-website/
+kailash-sangrila/
 ├── public/
 │   └── images/              # Tour package images
 ├── src/
@@ -186,7 +186,7 @@ Contact details are in multiple files. Here's the complete list:
 ```
 Find: 919876543210          → Replace with: Your WhatsApp (without +)
 Find: +91 98765 43210       → Replace with: Your display phone
-Find: info@divyadarshan.com → Replace with: Your email
+Find: info@kailashsangrila.com → Replace with: Your email
 ```
 
 ### Adding New Pages
@@ -215,7 +215,7 @@ Edit the relevant files locally:
 ### Step 2: Test Locally (Optional but Recommended)
 
 ```bash
-cd divya-darshan-website
+cd kailash-sangrila
 npm run dev
 ```
 Open http://localhost:3000 to preview changes.
@@ -322,14 +322,14 @@ The website is optimized for performance:
 **All Rights Reserved** - This project is proprietary software owned by Kailash Sangrila Pilgrimage Services.
 
 - No copying, modifying, or distributing without written permission
-- For licensing inquiries, contact: info@divyadarshan.com
+- For licensing inquiries, contact: info@kailashsangrila.com
 
 See the [LICENSE](LICENSE) file for full details.
 
 ## Support
 
 For support, contact:
-- Email: info@divyadarshan.com
+- Email: info@kailashsangrila.com
 - WhatsApp: +91 XXXXX XXXXX
 
 ---
