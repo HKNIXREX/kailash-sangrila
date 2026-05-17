@@ -15,8 +15,8 @@ export default function Footer() {
                 </svg>
               </div>
               <div>
-                <span className="text-2xl font-bold text-white">Divya</span>
-                <span className="text-2xl font-bold bg-gradient-to-r from-amber-400 to-yellow-300 bg-clip-text text-transparent"> Darshan</span>
+                <span className="text-2xl font-bold text-white">Kailash</span>
+                <span className="text-2xl font-bold bg-gradient-to-r from-amber-400 to-yellow-300 bg-clip-text text-transparent"> Sangrila</span>
                 <p className="text-xs text-gray-500">Explore the Unexplored</p>
               </div>
             </div>
@@ -151,7 +151,7 @@ export default function Footer() {
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
                   </svg>
                 </div>
-                <span className="text-gray-400 hover:text-amber-400 transition-colors">info@divyadarshan.com</span>
+                <span className="text-gray-400 hover:text-amber-400 transition-colors">info@kailashsangrila.com</span>
               </li>
             </ul>
           </div>
@@ -163,7 +163,7 @@ export default function Footer() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <p className="text-gray-500 text-sm">
-              &copy; {new Date().getFullYear()} Divya Darshan. All rights reserved.
+              &copy; {new Date().getFullYear()} Kailash Sangrila. All rights reserved.
             </p>
             <div className="flex items-center gap-6 text-sm">
               <Link href="/terms" className="text-gray-500 hover:text-amber-400 transition-colors">

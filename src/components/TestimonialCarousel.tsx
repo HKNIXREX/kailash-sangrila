@@ -18,7 +18,7 @@ const testimonials = [
     name: "Priya Sharma",
     location: "Mumbai",
     rating: 5,
-    text: "Highly recommend Divya Darshan for anyone seeking a spiritual journey. Professional, caring, and knowledgeable guides. The accommodation was comfortable even at high altitudes.",
+    text: "Highly recommend Kailash Sangrila for anyone seeking a spiritual journey. Professional, caring, and knowledgeable guides. The accommodation was comfortable even at high altitudes.",
     image: "PS",
   },
   {
@@ -39,7 +39,7 @@ const testimonials = [
     name: "Vikram Singh",
     location: "Chandigarh",
     rating: 5,
-    text: "Second time with Divya Darshan. First was Adikailash, now completed the Darma Valley trek. Both experiences were exceptional. Already planning the next one!",
+    text: "Second time with Kailash Sangrila. First was Adikailash, now completed the Darma Valley trek. Both experiences were exceptional. Already planning the next one!",
     image: "VS",
   },
 ];

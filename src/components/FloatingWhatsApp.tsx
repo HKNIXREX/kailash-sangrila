@@ -26,7 +26,7 @@ export default function FloatingWhatsApp() {
                   </svg>
                 </div>
                 <div>
-                  <h4 className="text-white font-bold">Divya Darshan</h4>
+                  <h4 className="text-white font-bold">Kailash Sangrila</h4>
                   <p className="text-white/80 text-sm">Typically replies instantly</p>
                 </div>
               </div>
@@ -36,7 +36,7 @@ export default function FloatingWhatsApp() {
             <div className="p-4 bg-[url('data:image/svg+xml,%3Csvg%20width%3D%22100%22%20height%3D%22100%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cdefs%3E%3Cpattern%20id%3D%22grid%22%20width%3D%2220%22%20height%3D%2220%22%20patternUnits%3D%22userSpaceOnUse%22%3E%3Cpath%20d%3D%22M%2020%200%20L%200%200%200%2020%22%20fill%3D%22none%22%20stroke%3D%22%2310b981%22%20stroke-width%3D%220.3%22%20opacity%3D%220.1%22%2F%3E%3C%2Fpattern%3E%3C%2Fdefs%3E%3Crect%20width%3D%22100%22%20height%3D%22100%22%20fill%3D%22url(%23grid)%22%2F%3E%3C%2Fsvg%3E')] bg-slate-800/50">
               <div className="bg-white rounded-lg rounded-tl-none p-3 shadow-sm max-w-[85%]">
                 <p className="text-gray-800 text-sm">
-                  Namaste! 🙏 Welcome to Divya Darshan. How can we help you plan your sacred Adikailash Yatra?
+                  Namaste! 🙏 Welcome to Kailash Sangrila. How can we help you plan your sacred Adikailash Yatra?
                 </p>
                 <span className="text-xs text-gray-500 mt-1 block">Just now</span>
               </div>

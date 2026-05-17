@@ -15,15 +15,15 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: "Divya Darshan - Adikailash, Omparvat & Kailash Yatra | Explore the Unexplored",
-  description: "Experience divine pilgrimage tours to Adikailash, Omparvat, and Kailash with Divya Darshan. Expert guided tours through the magnificent Himalayas starting from Rs. 10,800.",
+  title: "Kailash Sangrila - Adikailash, Omparvat & Kailash Yatra | Explore the Unexplored",
+  description: "Experience divine pilgrimage tours to Adikailash, Omparvat, and Kailash with Kailash Sangrila. Expert guided tours through the magnificent Himalayas starting from Rs. 10,800.",
   keywords: "Adikailash Yatra, Omparvat Tour, Kailash Darshan, Himalayan Pilgrimage, Kumaon Darshan, Uttarakhand Tours, Spiritual Journey",
-  authors: [{ name: "Divya Darshan" }],
+  authors: [{ name: "Kailash Sangrila" }],
   icons: {
     icon: "/icon.svg",
   },
   openGraph: {
-    title: "Divya Darshan - Adikailash, Omparvat & Kailash Yatra",
+    title: "Kailash Sangrila - Adikailash, Omparvat & Kailash Yatra",
     description: "Experience divine pilgrimage tours to Adikailash and Omparvat with expert guidance.",
     type: "website",
     locale: "en_IN",

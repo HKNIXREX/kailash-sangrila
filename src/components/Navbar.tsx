@@ -34,8 +34,8 @@ export default function Navbar() {
                 </svg>
               </div>
               <div>
-                <span className="text-2xl font-bold text-white">Divya</span>
-                <span className="text-2xl font-bold bg-gradient-to-r from-amber-400 to-yellow-300 bg-clip-text text-transparent"> Darshan</span>
+                <span className="text-2xl font-bold text-white">Kailash</span>
+                <span className="text-2xl font-bold bg-gradient-to-r from-amber-400 to-yellow-300 bg-clip-text text-transparent"> Sangrila</span>
                 <p className="text-xs text-gray-400 -mt-1">Explore the Unexplored</p>
               </div>
             </Link>

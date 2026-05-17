@@ -118,7 +118,7 @@ export default function Home() {
                 </span>
               </h2>
               <p className="text-gray-400 text-lg mb-8 leading-relaxed">
-                Divya Darshan specializes in organizing spiritual journeys to the sacred peaks of
+                Kailash Sangrila specializes in organizing spiritual journeys to the sacred peaks of
                 Adikailash, Omparvat, and Kailash. With years of experience navigating the
                 challenging terrains of Uttarakhand, we ensure a safe, comfortable, and
                 spiritually enriching experience for all our pilgrims.

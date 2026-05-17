@@ -2,7 +2,7 @@ import Link from "next/link";
 import { cancellationPolicy } from "@/data/packages";
 
 export const metadata = {
-  title: "Terms & Conditions - Divya Darshan",
+  title: "Terms & Conditions - Kailash Sangrila",
   description: "Read our terms and conditions, booking policy, cancellation policy, and important guidelines for Adikailash and Omparvat Yatra.",
 };
 

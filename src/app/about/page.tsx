@@ -1,8 +1,8 @@
 import Link from "next/link";
 
 export const metadata = {
-  title: "About Us - Divya Darshan | Your Himalayan Pilgrimage Partner",
-  description: "Learn about Divya Darshan, your trusted partner for Adikailash, Omparvat, and Kailash Yatra. Expert guides, safe journeys, and unforgettable spiritual experiences.",
+  title: "About Us - Kailash Sangrila | Your Himalayan Pilgrimage Partner",
+  description: "Learn about Kailash Sangrila, your trusted partner for Adikailash, Omparvat, and Kailash Yatra. Expert guides, safe journeys, and unforgettable spiritual experiences.",
 };
 
 export default function AboutPage() {
@@ -21,7 +21,7 @@ export default function AboutPage() {
           <h1 className="text-4xl md:text-6xl font-bold text-white mb-6">
             About{" "}
             <span className="bg-gradient-to-r from-amber-400 to-yellow-300 bg-clip-text text-transparent">
-              Divya Darshan
+              Kailash Sangrila
             </span>
           </h1>
           <p className="text-xl text-gray-400 max-w-2xl mx-auto">
@@ -45,7 +45,7 @@ export default function AboutPage() {
                 </span>
               </h2>
               <p className="text-gray-400 mb-6 leading-relaxed">
-                Divya Darshan was founded with a simple yet profound mission: to make the sacred pilgrimage
+                Kailash Sangrila was founded with a simple yet profound mission: to make the sacred pilgrimage
                 to Adikailash, Omparvat, and the magnificent peaks of the Kumaon Himalayas accessible to
                 devotees from all walks of life.
               </p>

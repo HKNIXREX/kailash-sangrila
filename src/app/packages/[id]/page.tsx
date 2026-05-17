@@ -19,7 +19,7 @@ export async function generateMetadata({ params }: PageProps) {
   if (!pkg) return { title: "Package Not Found" };
 
   return {
-    title: `${pkg.name} - ${pkg.pickupDropoff} | Divya Darshan`,
+    title: `${pkg.name} - ${pkg.pickupDropoff} | Kailash Sangrila`,
     description: pkg.description,
   };
 }
