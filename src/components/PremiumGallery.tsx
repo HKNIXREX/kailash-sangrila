@@ -1,17 +1,18 @@
 "use client";
 
 import { useState } from "react";
+import Image from "next/image";
 import { motion, AnimatePresence } from "framer-motion";
 
 const galleryImages = [
-  { id: 1, title: "Adikailash Peak", category: "peaks", color: "from-blue-900 to-indigo-900" },
-  { id: 2, title: "Omparvat View", category: "peaks", color: "from-purple-900 to-violet-900" },
-  { id: 3, title: "Journey Path", category: "trek", color: "from-green-900 to-emerald-900" },
-  { id: 4, title: "Base Camp", category: "camp", color: "from-amber-900 to-orange-900" },
-  { id: 5, title: "Sunrise View", category: "peaks", color: "from-rose-900 to-pink-900" },
-  { id: 6, title: "Local Village", category: "culture", color: "from-cyan-900 to-teal-900" },
-  { id: 7, title: "Mountain Trail", category: "trek", color: "from-slate-800 to-slate-900" },
-  { id: 8, title: "Pilgrim Group", category: "culture", color: "from-yellow-900 to-amber-900" },
+  { id: 1, title: "Adikailash Peak", category: "peaks", src: "/images/gallery/16.jpg" },
+  { id: 2, title: "Omparvat View", category: "peaks", src: "/images/gallery/19.jpg" },
+  { id: 3, title: "Journey Path", category: "trek", src: "/images/gallery/10.jpg" },
+  { id: 4, title: "Base Camp", category: "camp", src: "/images/gallery/24.jpg" },
+  { id: 5, title: "Sunrise View", category: "peaks", src: "/images/gallery/5.jpg" },
+  { id: 6, title: "Local Village", category: "culture", src: "/images/gallery/14.jpg" },
+  { id: 7, title: "Mountain Trail", category: "trek", src: "/images/gallery/26.jpg" },
+  { id: 8, title: "Pilgrim Group", category: "culture", src: "/images/gallery/1.jpg" },
 ];
 
 const categories = ["all", "peaks", "trek", "camp", "culture"];
@@ -81,15 +82,14 @@ export default function PremiumGallery() {
                   index === 0 ? "md:col-span-2 md:row-span-2" : ""
                 }`}
               >
-                {/* Gradient placeholder */}
-                <div className={`absolute inset-0 bg-gradient-to-br ${image.color}`} />
-
-                {/* Mountain icon */}
-                <div className="absolute inset-0 flex items-center justify-center">
-                  <svg className="w-16 h-16 text-white/10" viewBox="0 0 100 100" fill="currentColor">
-                    <path d="M50 10 L70 40 L90 70 L50 60 L10 70 L30 40 Z" />
-                  </svg>
-                </div>
+                {/* Real image */}
+                <Image
+                  src={image.src}
+                  alt={image.title}
+                  fill
+                  sizes="(max-width: 768px) 50vw, (max-width: 1024px) 33vw, 25vw"
+                  className="object-cover transition-transform duration-500 group-hover:scale-110"
+                />
 
                 {/* Hover overlay */}
                 <div className="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
@@ -132,13 +132,13 @@ export default function PremiumGallery() {
                 className="relative max-w-4xl w-full aspect-video rounded-3xl overflow-hidden"
               >
                 {/* Image content */}
-                <div className={`absolute inset-0 bg-gradient-to-br ${galleryImages.find(img => img.id === selectedImage)?.color}`}>
-                  <div className="absolute inset-0 flex items-center justify-center">
-                    <svg className="w-32 h-32 text-white/20" viewBox="0 0 100 100" fill="currentColor">
-                      <path d="M50 10 L70 40 L90 70 L50 60 L10 70 L30 40 Z" />
-                    </svg>
-                  </div>
-                </div>
+                <Image
+                  src={galleryImages.find((img) => img.id === selectedImage)?.src ?? ""}
+                  alt={galleryImages.find((img) => img.id === selectedImage)?.title ?? ""}
+                  fill
+                  sizes="100vw"
+                  className="object-cover"
+                />
 
                 {/* Title */}
                 <div className="absolute bottom-0 left-0 right-0 p-6 bg-gradient-to-t from-black/80 to-transparent">

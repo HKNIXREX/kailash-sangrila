@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import PremiumPackageCard from "@/components/PremiumPackageCard";
 import PremiumHero from "@/components/PremiumHero";
 import AnimatedSection from "@/components/AnimatedSection";
@@ -157,33 +158,25 @@ export default function Home() {
                 <div className="relative grid grid-cols-2 gap-4">
                   <div className="space-y-4">
                     <TiltCard>
-                      <div className="rounded-2xl overflow-hidden h-48 bg-gradient-to-br from-amber-600 to-orange-800 shadow-xl flex items-center justify-center">
-                        <svg className="w-20 h-20 text-white/30" viewBox="0 0 100 100" fill="currentColor">
-                          <path d="M50 10 L70 40 L90 70 L50 60 L10 70 L30 40 Z" />
-                        </svg>
+                      <div className="relative rounded-2xl overflow-hidden h-48 shadow-xl">
+                        <Image src="/images/gallery/53.jpg" alt="Sacred journey" fill sizes="(max-width: 1024px) 50vw, 25vw" className="object-cover" />
                       </div>
                     </TiltCard>
                     <TiltCard>
-                      <div className="rounded-2xl overflow-hidden h-64 bg-gradient-to-br from-slate-700 to-slate-900 shadow-xl flex items-center justify-center border border-slate-600/50">
-                        <svg className="w-24 h-24 text-amber-500/20" viewBox="0 0 100 100" fill="currentColor">
-                          <path d="M50 10 L70 40 L90 70 L50 60 L10 70 L30 40 Z" />
-                        </svg>
+                      <div className="relative rounded-2xl overflow-hidden h-64 shadow-xl border border-slate-600/50">
+                        <Image src="/images/gallery/56.jpg" alt="Mountain peaks" fill sizes="(max-width: 1024px) 50vw, 25vw" className="object-cover" />
                       </div>
                     </TiltCard>
                   </div>
                   <div className="space-y-4 pt-8">
                     <TiltCard>
-                      <div className="rounded-2xl overflow-hidden h-64 bg-gradient-to-br from-yellow-600 to-amber-800 shadow-xl flex items-center justify-center">
-                        <svg className="w-24 h-24 text-white/30" viewBox="0 0 100 100" fill="currentColor">
-                          <path d="M50 10 L70 40 L90 70 L50 60 L10 70 L30 40 Z" />
-                        </svg>
+                      <div className="relative rounded-2xl overflow-hidden h-64 shadow-xl">
+                        <Image src="/images/gallery/60.jpg" alt="Pilgrim experience" fill sizes="(max-width: 1024px) 50vw, 25vw" className="object-cover" />
                       </div>
                     </TiltCard>
                     <TiltCard>
-                      <div className="rounded-2xl overflow-hidden h-48 bg-gradient-to-br from-slate-800 to-black shadow-xl flex items-center justify-center border border-amber-500/30">
-                        <svg className="w-20 h-20 text-amber-500/30" viewBox="0 0 100 100" fill="currentColor">
-                          <path d="M50 10 L70 40 L90 70 L50 60 L10 70 L30 40 Z" />
-                        </svg>
+                      <div className="relative rounded-2xl overflow-hidden h-48 shadow-xl border border-amber-500/30">
+                        <Image src="/images/gallery/64.jpg" alt="Himalayan vistas" fill sizes="(max-width: 1024px) 50vw, 25vw" className="object-cover" />
                       </div>
                     </TiltCard>
                   </div>

@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import Image from "next/image";
 import { motion, AnimatePresence } from "framer-motion";
 
 export default function VideoSection() {
@@ -41,22 +42,16 @@ export default function VideoSection() {
           viewport={{ once: true }}
           className="relative aspect-video rounded-3xl overflow-hidden border border-slate-700/50 shadow-2xl shadow-amber-500/10"
         >
-          {/* Video placeholder / thumbnail */}
-          <div className="absolute inset-0 bg-gradient-to-br from-slate-800 to-slate-900">
-            {/* Animated mountain silhouette */}
-            <svg className="absolute bottom-0 left-0 right-0 h-48 text-slate-700/30" viewBox="0 0 100 30" preserveAspectRatio="none">
-              <path d="M0 30 L10 20 L25 25 L40 10 L55 18 L70 5 L85 15 L100 8 L100 30 Z" fill="currentColor" />
-            </svg>
-
-            {/* Decorative elements */}
-            <div className="absolute inset-0 flex items-center justify-center">
-              <div className="text-center">
-                <svg className="w-24 h-24 text-amber-500/30 mx-auto mb-4" viewBox="0 0 100 100" fill="currentColor">
-                  <path d="M50 10 L70 40 L90 70 L50 60 L10 70 L30 40 Z" />
-                </svg>
-                <p className="text-gray-500 text-sm">Adikailash & Omparvat Journey</p>
-              </div>
-            </div>
+          {/* Video thumbnail */}
+          <div className="absolute inset-0">
+            <Image
+              src="/images/gallery/70.jpg"
+              alt="Adikailash & Omparvat Journey"
+              fill
+              sizes="(max-width: 1024px) 100vw, 1024px"
+              className="object-cover"
+            />
+            <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent" />
           </div>
 
           {/* Play button overlay */}
@@ -89,13 +84,20 @@ export default function VideoSection() {
             )}
           </AnimatePresence>
 
-          {/* Video iframe (would load actual video when play is clicked) */}
+          {/* Actual video player */}
           {isPlaying && (
-            <div className="absolute inset-0 bg-black flex items-center justify-center">
-              <p className="text-gray-400">Video player would load here</p>
+            <div className="absolute inset-0 bg-black">
+              <video
+                src="/videos/journey-1.mp4"
+                controls
+                autoPlay
+                playsInline
+                className="w-full h-full object-contain bg-black"
+              />
               <button
                 onClick={() => setIsPlaying(false)}
-                className="absolute top-4 right-4 w-10 h-10 bg-black/50 rounded-full flex items-center justify-center text-white hover:bg-black/70 transition-colors"
+                className="absolute top-4 right-4 w-10 h-10 bg-black/70 rounded-full flex items-center justify-center text-white hover:bg-black/90 transition-colors z-10"
+                aria-label="Close video"
               >
                 <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />

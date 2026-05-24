@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 export const metadata = {
   title: "About Us - Kailash Sangrila | Your Himalayan Pilgrimage Partner",
@@ -61,27 +62,19 @@ export default function AboutPage() {
             </div>
             <div className="grid grid-cols-2 gap-4">
               <div className="space-y-4">
-                <div className="rounded-2xl h-48 bg-gradient-to-br from-amber-600 to-orange-800 flex items-center justify-center">
-                  <svg className="w-16 h-16 text-white/30" viewBox="0 0 100 100" fill="currentColor">
-                    <path d="M50 10 L70 40 L90 70 L50 60 L10 70 L30 40 Z" />
-                  </svg>
+                <div className="relative rounded-2xl h-48 overflow-hidden">
+                  <Image src="/images/gallery/38.jpg" alt="Adikailash journey" fill sizes="(max-width: 1024px) 50vw, 25vw" className="object-cover" />
                 </div>
-                <div className="rounded-2xl h-64 bg-gradient-to-br from-slate-700 to-slate-900 border border-slate-600/50 flex items-center justify-center">
-                  <svg className="w-20 h-20 text-amber-500/20" viewBox="0 0 100 100" fill="currentColor">
-                    <path d="M50 10 L70 40 L90 70 L50 60 L10 70 L30 40 Z" />
-                  </svg>
+                <div className="relative rounded-2xl h-64 overflow-hidden border border-slate-600/50">
+                  <Image src="/images/gallery/41.jpg" alt="Himalayan peaks" fill sizes="(max-width: 1024px) 50vw, 25vw" className="object-cover" />
                 </div>
               </div>
               <div className="space-y-4 pt-8">
-                <div className="rounded-2xl h-64 bg-gradient-to-br from-yellow-600 to-amber-800 flex items-center justify-center">
-                  <svg className="w-20 h-20 text-white/30" viewBox="0 0 100 100" fill="currentColor">
-                    <path d="M50 10 L70 40 L90 70 L50 60 L10 70 L30 40 Z" />
-                  </svg>
+                <div className="relative rounded-2xl h-64 overflow-hidden">
+                  <Image src="/images/gallery/47.jpg" alt="Pilgrimage trail" fill sizes="(max-width: 1024px) 50vw, 25vw" className="object-cover" />
                 </div>
-                <div className="rounded-2xl h-48 bg-gradient-to-br from-slate-800 to-black border border-amber-500/30 flex items-center justify-center">
-                  <svg className="w-16 h-16 text-amber-500/30" viewBox="0 0 100 100" fill="currentColor">
-                    <path d="M50 10 L70 40 L90 70 L50 60 L10 70 L30 40 Z" />
-                  </svg>
+                <div className="relative rounded-2xl h-48 overflow-hidden border border-amber-500/30">
+                  <Image src="/images/gallery/50.jpg" alt="Sacred mountains" fill sizes="(max-width: 1024px) 50vw, 25vw" className="object-cover" />
                 </div>
               </div>
             </div>
